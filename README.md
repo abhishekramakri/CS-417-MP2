@@ -36,7 +36,7 @@ A VR idle/incremental farming sim. The player accumulates two resources, Sunligh
 
 **Planting Generators (3pts):** Two generator objects (SunlightGenerator and MoneyGenerator) are XR interactables. Gripping them deploys a generator that permanently adds to the corresponding resource's passive rate. Each costs resources to deploy.
 
-**Purchasing Power-ups (4pts):** A PowerupStand XR interactable costs both Sunlight and Money and multiplies all generation rates by 1.5x. The stand disappears after purchase.
+**Purchasing Power-ups (4pts):** A PowerupStand XR interactable costs both Sunlight and Money and multiplies all generation rates by 1.5x.
 
 **Unlockable UI (4pts):** A gate object costs 50 Sunlight to unlock. On unlock, the gate wall disappears and the Money resource display area becomes visible and active. The trigger object and its sign also disappear.
 
