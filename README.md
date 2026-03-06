@@ -91,7 +91,7 @@ Attached to the gate trigger object. On grip, checks if the player has enough Su
 Reads from a `GeneratorDeployer` or `PowerupPurchaser` each frame and displays current cost, effect, and cooldown status on a world-space TextMeshPro text object.
 
 **CooldownTimer.cs**
-Tracks time remaining after an interaction. Exposes `IsReady` and `TimeRemaining` for other scripts to read. Does not display anything itself — the sign reads from it.
+Tracks time remaining after an interaction. Exposes `IsReady` and `TimeRemaining` for other scripts to read. Does not display anything itself; the sign reads from it.
 
 **AchievementTrophies.cs**
 Watches a resource counter each frame. When it crosses a configured threshold, instantiates a prefab at a set world position. Each trophy only spawns once.
