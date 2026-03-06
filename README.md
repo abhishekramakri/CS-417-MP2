@@ -1,7 +1,7 @@
 # CS 417 MP2: Minimal Sim
 
 ## Overview
-A VR idle/incremental farming sim. The player accumulates two resources — Sunlight and Money — passively over time and through direct interaction. Resources can be spent to deploy generators, purchase power-ups, and unlock a second resource area. The game saves progress between sessions and picks up where you left off.
+A VR idle/incremental farming sim. The player accumulates two resources, Sunlight and Money, passively over time and through direct interaction. Resources can be spent to deploy generators, purchase power-ups, and unlock a second resource area. The game saves progress between sessions and picks up where you left off.
 
 **Theme:** Low-poly nature farm
 
@@ -29,7 +29,7 @@ A VR idle/incremental farming sim. The player accumulates two resources — Sunl
 
 ### Required Features
 
-**Ramping Resources (3pts):** Two resource counters — Sunlight and Money — are Euler integrated over timesteps using `sunlightRate` and `moneyRate` in `GameManager`. Both are displayed on a world-space canvas that updates every frame.
+**Ramping Resources (3pts):** Two resource counters, Sunlight and Money, are Euler integrated over timesteps using `sunlightRate` and `moneyRate` in `GameManager`. Both are displayed on a world-space canvas that updates every frame.
 
 **Planting Generators (3pts):** Two generator objects (SunlightGenerator and MoneyGenerator) are XR interactables. Gripping them deploys a generator that permanently adds to the corresponding resource's passive rate. Each costs resources to deploy.
 
