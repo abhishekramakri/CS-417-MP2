@@ -56,6 +56,8 @@ A VR idle/incremental farming sim. The player accumulates two resources, Sunligh
 
 **Idle Progress (1pt):** On load, the game calculates how long the player was away using a saved timestamp and adds the resources they would have earned during that time.
 
+**Weenies on the Horizon (1pt):** On the Horizon, there are white tree objects that hint at future resources. 
+
 ---
 
 ## Project Structure
