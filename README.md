@@ -1,5 +1,8 @@
 # CS 417 MP2: Minimal Sim
 
+## Team 4
+Abhi Ramakrishnan, Julia Stein, Bella Yu
+
 ## Overview
 A VR idle/incremental farming sim. The player accumulates two resources, Sunlight and Money, passively over time and through direct interaction. Resources can be spent to deploy generators, purchase power-ups, and unlock a second resource area. The game saves progress between sessions and picks up where you left off.
 
